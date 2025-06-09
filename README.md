@@ -5,3 +5,5 @@ A Simple patient record manager with a menu of 5 simple functions:
 - Get a particular patients details
 - Update a particular patients details
 - Delete a patient
+
+### The patient_lists folder contains a main.py file that contains the menu and a patient.py file that contains the patient class and functions
