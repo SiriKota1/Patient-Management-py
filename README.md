@@ -9,3 +9,6 @@ A Simple patient record manager with a menu of 5 simple functions:
 ## patient_lists folder:
 - Contains a main.py file that contains the menu and a patient.py file that contains the patient class and functions.
 - Uses lists to store patient data.
+
+## fastapi_patient file:
+- In this file the Patient Management System uses both FastAPi and MySQL database connection to store the patient data.
