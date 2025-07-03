@@ -17,8 +17,8 @@ class Patient:
 patient_list = []
 db = mysql.connector.connect(
      host="localhost",
-     user="root",
-     password="Siri@2005",
+     user="YourUsername",
+     password="YourPassword",
      database="patientDB"
 )
 
