@@ -20,14 +20,14 @@ This is a simple CRUD (Create, Read, Update, Delete) API and chatbot application
 ---
 
 ## 📁 Project Structure
-
+```
 patient-chatbot-app/
 ├── src/
 │ ├── patient_chatHistory.py # FastAPI backend (CRUD + chatbot)
 ├── app_ui.py # Streamlit UI
 ├── requirements.txt # Python dependencies
 └── README.md # Project overview
-
+```
 ---
 
 ## 🚀 Setup & Usage
@@ -40,5 +40,8 @@ Make sure you're in a virtual environment (`.venv`), then run:
 pip install -r requirements.txt
 ollama run llama3.1
 uvicorn src.patient_chatHistory:app --reload
+```
 ### API will be available at: http://127.0.0.1:8000/docs
+```
 streamlit run app_ui.py
+```
