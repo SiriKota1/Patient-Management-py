@@ -1,3 +1,4 @@
+
 # patient-chatbot-app
 
 Build a Patient Management and Chatbot application using FastAPI, Streamlit, MySQL, and Ollama (LLM).
@@ -22,11 +23,12 @@ This is a simple CRUD (Create, Read, Update, Delete) API and chatbot application
 ## 📁 Project Structure
 ```
 patient-chatbot-app/
-├── src/
-│ ├── patient_chatHistory.py # FastAPI backend (CRUD + chatbot)
-├── app_ui.py # Streamlit UI
-├── requirements.txt # Python dependencies
-└── README.md # Project overview
+├── patient_fastapi
+  ├── src/
+  │ ├── patient_chatHistory.py # FastAPI backend (CRUD + chatbot)
+  ├── app_ui.py # Streamlit UI
+  ├── requirements.txt # Python dependencies
+  └── README.md # Project overview
 ```
 ---
 
